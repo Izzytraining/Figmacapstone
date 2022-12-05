@@ -1,0 +1,262 @@
+/* header section*/
+
+header {
+  position: absolute;
+  width: 1366px;
+  height: 768px;
+  left: 0px;
+  top: 0px;
+  background: #29182e;
+}
+
+.facebook {
+  /* span */
+
+  position: absolute;
+  width: 214px;
+  height: 60px;
+  left: 66px;
+  top: 44px;
+
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 60px;
+  /* identical to box height, or 188% */
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+
+  color: #f14c36;
+}
+
+span {
+  position: absolute;
+  width: 167px;
+  height: 20px;
+  left: 41px;
+  top: 20px;
+
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  /* identical to box height, or 100% */
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+
+  color: #f6f7f1;
+}
+
+.divstarted {
+  /* div */
+
+  position: absolute;
+  width: 250px;
+  height: 60px;
+  left: 1050px;
+  top: 44px;
+
+  background: #f14c36;
+  border-radius: 50px;
+}
+
+nav {
+  /* nav */
+
+  position: absolute;
+  width: 1234px;
+  height: 60px;
+  left: 66px;
+  top: 44px;
+}
+
+.headerimg {
+  /* img */
+
+  position: absolute;
+  width: 639.18px;
+  height: 750px;
+  left: 727px;
+  top: 142px;
+}
+
+h1 {
+  position: absolute;
+  width: 784px;
+  height: 48px;
+  left: 80px;
+  top: 352px;
+
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 48px;
+  /* identical to box height, or 100% */
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+
+  color: #f6f7f1;
+}
+
+.pheader {
+  position: absolute;
+  width: 650px;
+  height: 50px;
+  left: 80px;
+  top: 425px;
+
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+
+  color: #f6f7f1;
+}
+
+/* middle section start */
+
+.focused {
+  position: absolute;
+  width: 1366px;
+  height: 768px;
+  left: 0px;
+  top: 768px;
+  background: #f6f7f1;
+}
+
+h2 {
+  position: absolute;
+  width: 500px;
+  height: 100px;
+  left: 766px;
+  top: 288px;
+
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 50px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+
+  color: #29182e;
+}
+
+.section2 {
+  position: absolute;
+  width: 650px;
+  height: 50px;
+  left: 616px;
+  top: 429px;
+
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: right;
+
+  color: #29182e;
+}
+
+/* middle section end */
+
+/* bottom section start */
+
+.hello {
+  position: absolute;
+  width: 1366px;
+  height: 768px;
+  left: 0px;
+  top: 1536px;
+
+  background: #f6f7f1;
+}
+
+/* bottom section end */
+
+/* footer section start */
+
+footer {
+  position: absolute;
+  width: 1366px;
+  height: 296px;
+  left: 0px;
+  top: 2304px;
+
+  background: #29182e;
+}
+
+a {
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25px;
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+
+  color: #ecb20d;
+}
+
+.started {
+  position: absolute;
+  width: 167px;
+  height: 25px;
+  left: 66px;
+  top: 156px;
+}
+
+.about {
+  position: absolute;
+  width: 83px;
+  height: 25px;
+  left: 318.5px;
+  top: 156px;
+}
+
+.jobs {
+  position: absolute;
+  width: 64px;
+  height: 25px;
+  left: 487px;
+  top: 156px;
+}
+
+.help {
+  position: absolute;
+  width: 62px;
+  height: 25px;
+  left: 636.5px;
+  top: 156px;
+}
+
+.privacy {
+  position: absolute;
+  width: 213px;
+  height: 25px;
+  left: 784px;
+  top: 156px;
+}
+
+.cookies {
+  position: absolute;
+  width: 218px;
+  height: 25px;
+  left: 1082.5px;
+  top: 156px;
+}
+
+/* footer section end */
