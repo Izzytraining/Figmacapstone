@@ -1,12 +1,39 @@
 /* header section*/
 
+* {
+  display: flex;
+  width: 1366px;
+  height: 768px;
+}
+
+title {
+  display: none;
+}
+
+body {
+  background: #1e1e1e;
+  position: relative;
+  width: 1366px;
+  height: 2600px;
+  overflow-y: scroll;
+}
+
 header {
   position: absolute;
   width: 1366px;
   height: 768px;
   left: 0px;
   top: 0px;
+
   background: #29182e;
+}
+
+nav {
+  position: absolute;
+  width: 1234px;
+  height: 60px;
+  left: 66px;
+  top: 44px;
 }
 
 .facebook {
@@ -64,19 +91,7 @@ span {
   border-radius: 50px;
 }
 
-nav {
-  /* nav */
-
-  position: absolute;
-  width: 1234px;
-  height: 60px;
-  left: 66px;
-  top: 44px;
-}
-
 .headerimg {
-  /* img */
-
   position: absolute;
   width: 639.18px;
   height: 750px;
@@ -119,7 +134,9 @@ h1 {
   color: #f6f7f1;
 }
 
-/* middle section start */
+/*header end*/
+
+/* focused section start */
 
 .focused {
   position: absolute;
@@ -127,10 +144,11 @@ h1 {
   height: 768px;
   left: 0px;
   top: 768px;
+
   background: #f6f7f1;
 }
 
-h2 {
+.focused2 {
   position: absolute;
   width: 500px;
   height: 100px;
@@ -168,9 +186,29 @@ h2 {
   color: #29182e;
 }
 
-/* middle section end */
+#social {
+  color: #f14c36;
+}
 
-/* bottom section start */
+#integrity {
+  color: #436b2c;
+}
+
+.phone {
+  /* phone */
+
+  position: absolute;
+  width: 338px;
+  height: 696px;
+  left: 0px;
+  top: 0px;
+
+  background: url(Apple iPhone 13 Pro — Graphite — Shadow.png);
+}
+
+/* focused section end */
+
+/* platform section start */
 
 .hello {
   position: absolute;
@@ -182,7 +220,115 @@ h2 {
   background: #f6f7f1;
 }
 
-/* bottom section end */
+h2 {
+  position: absolute;
+  width: 886px;
+  height: 40px;
+  left: 240px;
+  top: 174px;
+
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 40px;
+  /* identical to box height, or 100% */
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+
+  color: #29182e;
+}
+
+@media screen {
+  .flex-container {
+    position: absolute;
+    width: 958px;
+    height: 279px;
+    left: 204px;
+    top: 314px;
+  }
+
+  .unity {
+    position: absolute;
+    left: 8.33%;
+    right: 8.33%;
+    top: 8.33%;
+    bottom: 8.33%;
+
+    background: #f14c36;
+
+    font-family: "Lexend Deca";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+
+    color: #f14c36;
+  }
+
+  .privacy {
+    position: absolute;
+    width: 250px;
+    height: 125px;
+    left: 544px;
+    top: 468px;
+
+    font-family: "Lexend Deca";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+
+    color: #436b2c;
+  }
+
+  .clarity {
+    position: absolute;
+    width: 250px;
+    height: 125px;
+    left: 912px;
+    top: 468px;
+
+    font-family: "Lexend Deca";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #ecb20d;
+  }
+
+  .unityimg {
+    position: absolute;
+    left: 8.33%;
+    right: 8.33%;
+    top: 8.33%;
+    bottom: 8.33%;
+  }
+
+  .privacyimg {
+    position: absolute;
+    left: 8.33%;
+    right: 8.33%;
+    top: 8.33%;
+    bottom: 8.33%;
+  }
+
+  .clarityimg {
+    position: absolute;
+    left: 8.33%;
+    right: 8.57%;
+    top: 16.74%;
+    bottom: 16.67%;
+  }
+}
+
+/* platform section end */
 
 /* footer section start */
 
@@ -196,67 +342,119 @@ footer {
   background: #29182e;
 }
 
-a {
+.facefoot {
+  position: absolute;
+  width: 214px;
+  height: 40px;
+  left: 576px;
+  top: 66px;
+
   font-family: "Lexend Deca";
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
-  line-height: 25px;
+  font-size: 32px;
+  line-height: 40px;
   /* identical to box height */
   display: flex;
   align-items: center;
   letter-spacing: 0.15em;
   text-transform: uppercase;
 
-  color: #ecb20d;
+  color: #f14c36;
 }
 
-.started {
-  position: absolute;
-  width: 167px;
-  height: 25px;
-  left: 66px;
-  top: 156px;
-}
+@media screen {
+  .div-footer {
+    position: absolute;
+    width: 958px;
+    height: 279px;
+    left: 204px;
+    top: 314px;
+  }
 
-.about {
-  position: absolute;
-  width: 83px;
-  height: 25px;
-  left: 318.5px;
-  top: 156px;
-}
+  a {
+    font-family: "Lexend Deca";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
 
-.jobs {
-  position: absolute;
-  width: 64px;
-  height: 25px;
-  left: 487px;
-  top: 156px;
-}
+    color: #ecb20d;
+  }
 
-.help {
-  position: absolute;
-  width: 62px;
-  height: 25px;
-  left: 636.5px;
-  top: 156px;
-}
+  .started {
+    position: absolute;
+    width: 167px;
+    height: 25px;
+    left: 66px;
+    top: 156px;
+  }
 
-.privacy {
-  position: absolute;
-  width: 213px;
-  height: 25px;
-  left: 784px;
-  top: 156px;
-}
+  .about {
+    position: absolute;
+    width: 83px;
+    height: 25px;
+    left: 318.5px;
+    top: 156px;
+  }
 
-.cookies {
-  position: absolute;
-  width: 218px;
-  height: 25px;
-  left: 1082.5px;
-  top: 156px;
+  .jobs {
+    position: absolute;
+    width: 64px;
+    height: 25px;
+    left: 487px;
+    top: 156px;
+  }
+
+  .help {
+    position: absolute;
+    width: 62px;
+    height: 25px;
+    left: 636.5px;
+    top: 156px;
+  }
+
+  .privacyfoot {
+    position: absolute;
+    width: 213px;
+    height: 25px;
+    left: 784px;
+    top: 156px;
+  }
+
+  .cookies {
+    position: absolute;
+    width: 218px;
+    height: 25px;
+    left: 1082.5px;
+    top: 156px;
+  }
+
+  .copyright {
+    position: absolute;
+    width: 228px;
+    height: 25px;
+    left: 569px;
+    top: 256px;
+
+    font-family: "Lexend Deca";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+
+    color: #f6f7f1;
+  }
 }
 
 /* footer section end */

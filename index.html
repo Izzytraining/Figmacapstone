@@ -13,12 +13,15 @@
     <link rel="stylesheet" href="style.css" />
     <title>Figma</title>
   </head>
+
+  <!--header section-->
+
   <body>
     <header>
       <nav>
-        <span class="facebook">FACEBOOK</span>
-        <div class="started"><span>GET STARTED</span></div>
-      </nav>
+        <span class="facebook">FAKEBOOK</span>
+      
+      <div class="divstarted"><span>GET STARTED</span></div>
       <h1>CONNECTING THE WORLD</h1>
       <p class="pheader">
         A next-gen social networking service, empowering the user, making
@@ -27,33 +30,44 @@
       <img class="headerimg" src="Assets/header-img.png" />
     </header>
 
+    <!--focused section-->
+
     <section class="focused">
-      <h2 class="focused2">FOCUSED ON <span>SOCIAL</span> INTEGRITY</h2>
+      <h2 class="focused2">
+        FOCUSED ON <span id="social">SOCIAL</span>
+        <span id="integrity"> INTEGRITY</span>
+      </h2>
       <p class="section2">
         Avoiding the sharing functionality, you can focus on showcasing your
         best self without hesitation.
       </p>
+      <img class="phone" src="Assets/phone-mockup.png" />
     </section>
+
+    <!--platform section-->
 
     <section class="hello">
       <h2>SAY HELLO TO AN OPEN PLATFORM</h2>
-      <div>
+      <div class="flex-container">
         <article>
-          <h3>UNITY</h3>
-          <p>
+          <h3 class="unity">UNITY</h3>
+          <img class="unityimg" src="Assets/Vector copy.png" />
+          <p class="mind">
             Ensuring peace of mind for all our users, share only what you want.
             You are in full control of yourself with us.
           </p>
         </article>
         <article>
-          <h3>PRIVACY</h3>
+          <h3 class="privacy">PRIVACY</h3>
+          <img class="privacyimg" src="Assets/Vector.png" />
           <p>
             With limitless privacy toggle functionality, we will only ever use
             your data to provide the best experience for you.
           </p>
         </article>
         <article>
-          <h3>CLARITY</h3>
+          <h3 class="clarity">CLARITY</h3>
+          <img class="clarityimg" src="Assets/Vector copy 2.png" />
           <p>
             We will always notify you of any changes affecting you, and will
             never breach our promise of a clear, open network.
@@ -61,15 +75,20 @@
         </article>
       </div>
     </section>
+
+    <!--footer section-->
+
     <footer>
-      <span>FACEBOOK</span>
-      <span>© FakeBook 2022</span>
-      <a class="started" href="started">GET STARTED</a>
-      <a class="about" href="about">ABOUT</a>
-      <a class="jobs" href="jobs">JOBS</a>
-      <a class="help" href="help">HELP</a>
-      <a class="privacy" href="privacy">PRIVACY POLICY</a>
-      <a class="cookies" href="cookies">COOKIES POLICY</a>
+      <span class="facefoot">FACEBOOK</span>
+      <div class="div-footer">
+        <a class="started" href="started">GET STARTED</a>
+        <a class="about" href="about">ABOUT</a>
+        <a class="jobs" href="jobs">JOBS</a>
+        <a class="help" href="help">HELP</a>
+        <a class="privacyfoot" href="privacyfoot">PRIVACY POLICY</a>
+        <a class="cookies" href="cookies">COOKIES POLICY</a>
+      </div>
+      <span class="copyright">© FakeBook 2022</span>
     </footer>
   </body>
 </html>
