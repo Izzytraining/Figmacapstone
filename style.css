@@ -28,13 +28,6 @@ header {
   background: #29182e;
 }
 
-nav {
-  position: absolute;
-  width: 1234px;
-  height: 60px;
-  left: 66px;
-  top: 44px;
-}
 
 .facebook {
   /* span */
@@ -218,6 +211,9 @@ h1 {
   top: 1536px;
 
   background: #f6f7f1;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 h2 {
@@ -239,7 +235,6 @@ h2 {
   color: #29182e;
 }
 
-@media screen {
   .flex-container {
     position: absolute;
     width: 958px;
@@ -326,7 +321,7 @@ h2 {
     top: 16.74%;
     bottom: 16.67%;
   }
-}
+
 
 /* platform section end */
 
@@ -338,6 +333,7 @@ footer {
   height: 296px;
   left: 0px;
   top: 2304px;
+  display:flex;
 
   background: #29182e;
 }
@@ -363,29 +359,9 @@ footer {
   color: #f14c36;
 }
 
-@media screen {
-  .div-footer {
-    position: absolute;
-    width: 958px;
-    height: 279px;
-    left: 204px;
-    top: 314px;
-  }
 
-  a {
-    font-family: "Lexend Deca";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 25px;
-    /* identical to box height */
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.15em;
-    text-transform: uppercase;
-
-    color: #ecb20d;
-  }
+ 
+  
 
   .started {
     position: absolute;
@@ -393,6 +369,7 @@ footer {
     height: 25px;
     left: 66px;
     top: 156px;
+    color: #ecb20d;
   }
 
   .about {
@@ -401,6 +378,7 @@ footer {
     height: 25px;
     left: 318.5px;
     top: 156px;
+    color: #ecb20d;
   }
 
   .jobs {
@@ -409,6 +387,7 @@ footer {
     height: 25px;
     left: 487px;
     top: 156px;
+    color: #ecb20d;
   }
 
   .help {
@@ -417,6 +396,7 @@ footer {
     height: 25px;
     left: 636.5px;
     top: 156px;
+    color: #ecb20d;
   }
 
   .privacyfoot {
@@ -425,6 +405,7 @@ footer {
     height: 25px;
     left: 784px;
     top: 156px;
+    color: #ecb20d;
   }
 
   .cookies {
@@ -433,6 +414,7 @@ footer {
     height: 25px;
     left: 1082.5px;
     top: 156px;
+    color: #ecb20d;
   }
 
   .copyright {
@@ -458,3 +440,44 @@ footer {
 }
 
 /* footer section end */
+
+
+/*media section begin*/
+
+@media screen and (min-width: 393px) {
+
+    .navtop {
+        position: absolute;
+        width: 1234px;
+        height: 60px;
+        left: 66px;
+        top: 44px;
+      }
+
+
+      .div-footer {
+        position: absolute;
+        width: 1234.5px;
+        height: 25px;
+        left: 66px;
+        top: 156px;
+    
+        font-family: "Lexend Deca";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 25px;
+    
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.15em;
+        text-transform: uppercase;
+        color: #ecb20d;
+
+}
+
+
+
+}
+
+/*media section end*/
