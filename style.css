@@ -1,7 +1,7 @@
 /* header section*/
 
 * {
-  display: flex;
+  display: flexbox;
   width: 1366px;
   height: 768px;
 }
@@ -61,7 +61,7 @@ span {
   font-family: "Lexend Deca";
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 15px;
   line-height: 20px;
   /* identical to box height, or 100% */
   letter-spacing: 0.15em;
@@ -140,7 +140,7 @@ h1 {
   background: #f6f7f1;
 }
 
-.focused2 {
+.class-h2 {
   position: absolute;
   width: 500px;
   height: 100px;
@@ -161,7 +161,36 @@ h1 {
   color: #29182e;
 }
 
-.section2 {
+.social {
+  color: #f14c36;
+
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 50px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+.integrity {
+  color: #436b2c;
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 50px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+#section-p-tag {
   position: absolute;
   width: 650px;
   height: 50px;
@@ -178,22 +207,14 @@ h1 {
   color: #29182e;
 }
 
-#social {
-  color: #f14c36;
-}
-
-#integrity {
-  color: #436b2c;
-}
-
 .phone {
   /* phone */
 
   position: absolute;
   width: 338px;
   height: 696px;
-  left: 50px;
-  top: 30px;
+  left: 120px;
+  top: 44px;
 }
 
 /* focused section end */
@@ -217,12 +238,13 @@ h2 {
   position: absolute;
   width: 886px;
   height: 40px;
+
   left: 240px;
   top: 174px;
 
   font-family: "Lexend Deca";
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 40px;
   line-height: 40px;
   /* identical to box height, or 100% */
@@ -248,7 +270,7 @@ footer {
   font-family: "Lexend Deca";
   font-style: normal;
   font-weight: 500;
-  font-size: 32px;
+  font-size: 20px;
   line-height: 40px;
   color: #ecb20d;
 }
@@ -260,6 +282,17 @@ footer {
   left: 576px;
   top: 66px;
 
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 40px;
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+
   color: #f14c36;
 }
 
@@ -270,6 +303,7 @@ footer {
   left: 66px;
   top: 156px;
   color: #ecb20d;
+  text-decoration: none;
 }
 
 .about {
@@ -279,6 +313,7 @@ footer {
   left: 318.5px;
   top: 156px;
   color: #ecb20d;
+  text-decoration: none;
 }
 
 .jobs {
@@ -288,6 +323,7 @@ footer {
   left: 487px;
   top: 156px;
   color: #ecb20d;
+  text-decoration: none;
 }
 
 .help {
@@ -297,6 +333,7 @@ footer {
   left: 636.5px;
   top: 156px;
   color: #ecb20d;
+  text-decoration: none;
 }
 
 .privacyfoot {
@@ -306,6 +343,7 @@ footer {
   left: 784px;
   top: 156px;
   color: #ecb20d;
+  text-decoration: none;
 }
 
 .cookies {
@@ -315,6 +353,7 @@ footer {
   left: 1082.5px;
   top: 156px;
   color: #ecb20d;
+  text-decoration: none;
 }
 
 .copyright {
@@ -332,23 +371,101 @@ footer {
 
   color: #f6f7f1;
 }
-}
 
 /* footer section end */
 
 /*media section begin*/
 
-
-
-
 .unity {
   position: absolute;
-  left: 8.33%;
-  right: 8.33%;
-  top: 8.33%;
-  bottom: 8.33%;
+  width: 126px;
+  height: 40px;
+  left: 266px;
+  top: 403px;
 
-  background: #f14c36;
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 40px;
+  /* identical to box height, or 125% */
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+
+  color: #f14c36;
+}
+
+.privacy {
+  position: absolute;
+  width: 174px;
+  height: 40px;
+  left: 582px;
+  top: 403px;
+
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 40px;
+  /* identical to box height, or 125% */
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+
+  color: #436b2c;
+}
+
+.clarity {
+  position: absolute;
+  width: 172px;
+  height: 40px;
+  left: 951px;
+  top: 403px;
+
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 40px;
+  /* identical to box height, or 125% */
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+
+  color: #ecb20d;
+}
+
+.unityimg {
+  position: absolute;
+  width: 53.33px;
+  height: 53.33px;
+
+  left: 302.33px;
+  top: 319.33px;
+}
+
+.privacyimg {
+  position: absolute;
+  width: 53.33px;
+  height: 53.33px;
+
+  left: 642.33px;
+  top: 319.33px;
+}
+
+.clarity-img {
+  position: absolute;
+  width: 53.18px;
+  height: 42.62px;
+
+  top: 324.71px;
+  left: 1010.33px;
+}
+
+#p-unity {
+  position: absolute;
+  width: 250px;
+  height: 125px;
+  left: 204px;
+  top: 468px;
 
   font-family: "Lexend Deca";
   font-style: normal;
@@ -360,7 +477,7 @@ footer {
   color: #f14c36;
 }
 
-.privacy {
+#p-priv {
   position: absolute;
   width: 250px;
   height: 125px;
@@ -377,7 +494,7 @@ footer {
   color: #436b2c;
 }
 
-.clarity {
+#p-clar {
   position: absolute;
   width: 250px;
   height: 125px;
@@ -396,60 +513,35 @@ footer {
   color: #ecb20d;
 }
 
-.unityimg {
-  position: absolute;
-  left: 53.33px;
-  right: 53.33px;
-  top: 5.33px;
-  bottom: 5.33px;
-}
-
-.privacyimg {
-  position: absolute;
-  left: 53.33px;
-  right: 53.33px;
-  top: 5.33px;
-  bottom: 5.33px;
-}
-
-.clarityimg {
-  position: absolute;
-  width: 53.18px;
-  height: 42.62px;
-  top: 16.74%;
-  left: 8.33%;
-}
-
 /*media section end*/
 
 @media screen and () {
-.flex-container {
-  position: absolute;
-  align-items: center;
-  width: 958px;
-  height: 279px;
-  left: 204px;
-  top: 314px;
-}
+  .flex-container {
+    position: absolute;
+    align-items: center;
+    width: 958px;
+    height: 279px;
+    left: 204px;
+    top: 314px;
+  }
 
-.div-footer {
-  position: absolute;
-  width: 1234.5px;
-  height: 25px;
-  left: 66px;
-  top: 156px;
+  .div-footer {
+    position: absolute;
+    width: 1234.5px;
+    height: 25px;
+    left: 66px;
+    top: 156px;
 
-  font-family: "Lexend Deca";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 25px;
+    font-family: "Lexend Deca";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
 
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.15em;
-  text-transform: uppercase;
-  color: #ecb20d;
-}
-  
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #ecb20d;
+  }
 }
